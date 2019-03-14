@@ -12,6 +12,7 @@
 		CBB6F8AF223AD6330004F028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB6F8AD223AD6330004F028 /* Main.storyboard */; };
 		CBB6F8B1223AD6330004F028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB6F8B0223AD6330004F028 /* Assets.xcassets */; };
 		CBB6F8B4223AD6330004F028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB6F8B2223AD6330004F028 /* LaunchScreen.storyboard */; };
+		CBB6F8BC223AD8E90004F028 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB6F8BB223AD8E90004F028 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CBB6F8B0223AD6330004F028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB6F8B3223AD6330004F028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBB6F8B5223AD6330004F028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB6F8BB223AD8E90004F028 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CBB6F8B0223AD6330004F028 /* Assets.xcassets */,
 				CBB6F8B2223AD6330004F028 /* LaunchScreen.storyboard */,
 				CBB6F8B5223AD6330004F028 /* Info.plist */,
+				CBB6F8BB223AD8E90004F028 /* User.swift */,
 			);
 			path = GROUP10_W2019_MAD3115_iOS;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				CBB6F8AC223AD6330004F028 /* ViewController.swift in Sources */,
 				CBB6F8AA223AD6330004F028 /* AppDelegate.swift in Sources */,
+				CBB6F8BC223AD8E90004F028 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
