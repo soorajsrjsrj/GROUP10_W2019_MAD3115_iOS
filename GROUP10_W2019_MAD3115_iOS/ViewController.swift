@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
     
     
-    let user = User(uId: "srj", pass: "srj", lstatus: "l")
+    let user = User(uId: "123", pass: "123", lstatus: "l")
 
     @IBAction func login(_ sender: Any) {
         let a = username.text
@@ -35,7 +35,9 @@ class ViewController: UIViewController {
             let vc = storyboard.instantiateViewController(withIdentifier: "HomeScreen") ; // MySecondSecreen the storyboard ID
             self.present(vc, animated: true, completion: nil);
             
+            let i = #imageLiteral(resourceName: "profile.png")
             
+        
         }else{
             print("not sucess")
         }
