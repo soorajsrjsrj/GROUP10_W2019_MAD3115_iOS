@@ -9,20 +9,31 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+   
+    
 
-    @IBOutlet weak var pdtname: UILabel!
+    @IBOutlet weak var label: UILabel!
+    
     var p = [Products]()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let prd = Products(productId: 1, productName: "Iphone XS Max 64GB", productQuantity: 10, productPrice: 1200.00)
-        p.insert(prd, at: 0)
+        addproducts()
         
-        // pdt.text = String(p[0].getproductId)
-        pdtname.text = String(p[0].getproductName)
+       
         // pdtq.text = String(p[0].getproduct)
         //  pdt.text = String(p[0].getproductId)
 
         // Do any additional setup after loading the view.
+    }
+ 
+    func addproducts(){
+        let prd = Products(productId: 1, productName: "Iphone XS Max 64GB", productQuantity: 10, productPrice: 1200.00)
+        p.insert(prd, at: 0)
+        
+        // pdt.text = String(p[0].getproductId)
+        label.text = String(p[0].getproductName)
     }
     
 
