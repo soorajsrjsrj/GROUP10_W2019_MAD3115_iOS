@@ -290,7 +290,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lkjhg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13n-gW-9sC">
-                                <rect key="frame" x="204" y="323" width="37" height="21"/>
+                                <rect key="frame" x="93" y="323" width="148" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -301,6 +301,9 @@
                         <viewLayoutGuide key="safeArea" id="JZO-jW-Q85"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="Q8J-2H-UfF"/>
+                    <connections>
+                        <outlet property="pdtname" destination="13n-gW-9sC" id="w16-rB-CD6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="69Z-7q-MwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
