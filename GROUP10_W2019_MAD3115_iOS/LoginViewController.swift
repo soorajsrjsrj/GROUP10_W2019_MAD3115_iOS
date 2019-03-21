@@ -8,8 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class LoginViewController: UIViewController {
+    
     
     @IBOutlet weak var username: UITextField!
     
@@ -17,17 +17,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
     
     
-    let user = User(uId: "123", pass: "123", lstatus: "l")
-
+    
+    let Cust = Customer(uId: "1234", pass: "1234", lstatus: "l", cName: "jubin", address: "xyz", email: "a@a.com", creditcInfo: "asdfvb", shipInfo: "asdf")
+    
     @IBAction func login(_ sender: Any) {
         let a = username.text
         let b = password.text
         
-        if( user.verifyLogin(usId:a!, pass:b!)==true)
+        if( Cust.verifyLogin(usId:a!, pass:b!)==true)
         {
             print("login sucess")
             
@@ -35,15 +37,14 @@ class ViewController: UIViewController {
             let vc = storyboard.instantiateViewController(withIdentifier: "HomeScreen") ; // MySecondSecreen the storyboard ID
             self.present(vc, animated: true, completion: nil);
             
-            let i = #imageLiteral(resourceName: "profile.png")
             
-        
+            
+            
         }else{
             print("not sucess")
         }
         
     }
     
-
+    
 }
-
