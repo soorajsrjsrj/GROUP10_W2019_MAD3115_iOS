@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Account Scene-->
         <scene sceneID="dOI-xj-isI">
             <objects>
-                <tableViewController storyboardIdentifier="HomeScreen" id="yKo-jx-LmZ" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="HomeScreen" id="yKo-jx-LmZ" userLabel="Account Scene" customClass="AccountTableViewController" customModule="GROUP10_W2019_MAD3115_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="138" sectionHeaderHeight="28" sectionFooterHeight="28" id="bZ5-tb-Pyx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,10 +212,10 @@
             </objects>
             <point key="canvasLocation" x="1118.840579710145" y="177.45535714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="BwQ-Bu-kGu">
             <objects>
-                <viewController id="3BJ-Qp-14q" sceneMemberID="viewController">
+                <viewController id="3BJ-Qp-14q" userLabel="Register View Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5ye-LP-ZKE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -256,14 +256,23 @@
             </objects>
             <point key="canvasLocation" x="1846" y="177"/>
         </scene>
-        <!--Item 2-->
+        <!--Cart Scene-->
         <scene sceneID="LM1-2h-BtH">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PBO-6F-6Bq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="XYe-db-ApN" sceneMemberID="viewController">
+                <viewController id="XYe-db-ApN" userLabel="Cart Scene" customClass="CartViewController" customModule="GROUP10_W2019_MAD3115_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MQG-fF-3P9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2i0-tC-Ra9">
+                                <rect key="frame" x="68" y="154" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3Do-mf-Ao1"/>
                     </view>
@@ -272,13 +281,22 @@
             </objects>
             <point key="canvasLocation" x="2817" y="-184"/>
         </scene>
-        <!--Item 1-->
+        <!--Home Scene-->
         <scene sceneID="4qh-NE-Bfz">
             <objects>
-                <viewController id="Ioj-4b-uaK" sceneMemberID="viewController">
+                <viewController id="Ioj-4b-uaK" userLabel="Home Scene" customClass="HomeViewController" customModule="GROUP10_W2019_MAD3115_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P34-cY-Ves">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lkjhg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13n-gW-9sC">
+                                <rect key="frame" x="204" y="323" width="37" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="JZO-jW-Q85"/>
                     </view>
@@ -286,7 +304,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="69Z-7q-MwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2817" y="-847"/>
+            <point key="canvasLocation" x="2816.8000000000002" y="-847.82608695652175"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8a8-Cf-m3t">
