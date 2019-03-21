@@ -34,7 +34,7 @@ class LoginViewController: UIViewController {
             print("login sucess")
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil);
-            let vc = storyboard.instantiateViewController(withIdentifier: "HomeScreen") ; // MySecondSecreen the storyboard ID
+            let vc = storyboard.instantiateViewController(withIdentifier: "tabView") ; // MySecondSecreen the storyboard ID
             self.present(vc, animated: true, completion: nil);
             
             

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bTB-fJ-5gg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bTB-fJ-5gg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.47"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,14 +28,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="HOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="trz-u0-qry">
-                                                    <rect key="frame" x="69" y="0.0" width="290" height="154.5"/>
+                                                    <rect key="frame" x="81" y="0.0" width="278" height="154.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="home.png" id="orA-IG-qUM">
-                                                    <rect key="frame" x="16" y="58" width="38" height="38"/>
+                                                    <rect key="frame" x="16" y="52" width="50" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -49,14 +49,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="CART" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Icr-bH-Avp">
-                                                    <rect key="frame" x="69" y="0.0" width="290" height="137.5"/>
+                                                    <rect key="frame" x="81" y="0.0" width="278" height="137.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="cart.png" highlightedImage="cart.png" highlighted="YES" id="Bqc-DN-f2y">
-                                                    <rect key="frame" x="16" y="49" width="38" height="38"/>
+                                                    <rect key="frame" x="16" y="43" width="50" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -70,14 +70,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="UPDATE CART" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sIE-EO-bLM">
-                                                    <rect key="frame" x="69" y="0.0" width="290" height="137.5"/>
+                                                    <rect key="frame" x="81" y="0.0" width="278" height="137.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="ordercart.png" highlightedImage="ordercart.png" highlighted="YES" id="hka-Be-eG2">
-                                                    <rect key="frame" x="16" y="49" width="38" height="38"/>
+                                                    <rect key="frame" x="16" y="43" width="50" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -91,14 +91,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="SHIPMENT INFO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UeF-6O-0jr">
-                                                    <rect key="frame" x="69" y="0.0" width="290" height="137.5"/>
+                                                    <rect key="frame" x="81" y="0.0" width="278" height="137.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="profile.png" id="lto-gy-wxz">
-                                                    <rect key="frame" x="16" y="49" width="38" height="38"/>
+                                                    <rect key="frame" x="16" y="43" width="50" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -112,14 +112,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="YOUR ORDERS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JCM-sC-DzU">
-                                                    <rect key="frame" x="69" y="0.0" width="290" height="153.5"/>
+                                                    <rect key="frame" x="81" y="0.0" width="278" height="153.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="order.png" highlightedImage="order.png" highlighted="YES" id="bOy-NW-qPh">
-                                                    <rect key="frame" x="16" y="57" width="38" height="38"/>
+                                                    <rect key="frame" x="16" y="51" width="50" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -133,14 +133,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="LOG OUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lFZ-aD-X8T">
-                                                    <rect key="frame" x="68" y="0.0" width="292" height="164.5"/>
+                                                    <rect key="frame" x="80" y="0.0" width="280" height="164.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="logout.png" highlightedImage="logout.png" highlighted="YES" id="hcK-VJ-vOm">
-                                                    <rect key="frame" x="15" y="63" width="38" height="38"/>
+                                                    <rect key="frame" x="15" y="57" width="50" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -255,6 +255,56 @@
             </objects>
             <point key="canvasLocation" x="1846" y="177"/>
         </scene>
+        <!--Item 2-->
+        <scene sceneID="LM1-2h-BtH">
+            <objects>
+                <viewController id="XYe-db-ApN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MQG-fF-3P9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3Do-mf-Ao1"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="zfC-d5-89V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PBO-6F-6Bq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2817" y="-184"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="4qh-NE-Bfz">
+            <objects>
+                <viewController id="Ioj-4b-uaK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P34-cY-Ves">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JZO-jW-Q85"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="Q8J-2H-UfF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="69Z-7q-MwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2817" y="-847"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="8a8-Cf-m3t">
+            <objects>
+                <tabBarController storyboardIdentifier="tabView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5Kt-Cz-qRu" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" restorationIdentifier="tabView" insetsLayoutMarginsFromSafeArea="NO" id="43D-1b-KaF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Ioj-4b-uaK" kind="relationship" relationship="viewControllers" id="3CS-6N-6UL"/>
+                        <segue destination="XYe-db-ApN" kind="relationship" relationship="viewControllers" id="Apn-ka-OXT"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mtl-zk-0gr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1790" y="-527"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="lLd-Gz-5mr">
             <objects>
@@ -275,11 +325,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cart.png" width="37.5" height="37.5"/>
-        <image name="home.png" width="37.5" height="37.5"/>
-        <image name="logout.png" width="37.5" height="37.5"/>
-        <image name="order.png" width="37.5" height="37.5"/>
-        <image name="ordercart.png" width="37.5" height="37.5"/>
-        <image name="profile.png" width="37.5" height="37.5"/>
+        <image name="cart.png" width="50" height="50"/>
+        <image name="home.png" width="50" height="50"/>
+        <image name="logout.png" width="50" height="50"/>
+        <image name="order.png" width="50" height="50"/>
+        <image name="ordercart.png" width="50" height="50"/>
+        <image name="profile.png" width="50" height="50"/>
     </resources>
 </document>
