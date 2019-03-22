@@ -34,6 +34,12 @@ class AccountTableViewController: UITableViewController {
                 print("about us")
             case 4:
                 print("logged  out")
+                
+                let sb = UIStoryboard(name: "Main", bundle: nil)
+                let pVC = sb.instantiateViewController(withIdentifier: "loginVC") 
+                self.navigationController?.pushViewController(pVC, animated: true)
+                
+                
             default:
                 print("Invalid Option")
             }
