@@ -28,19 +28,22 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="MY PROFILE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="trz-u0-qry">
-                                                    <rect key="frame" x="81" y="0.0" width="278" height="154.5"/>
+                                                    <rect key="frame" x="95" y="0.0" width="264" height="154.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="USERP.png" id="orA-IG-qUM">
-                                                    <rect key="frame" x="16" y="52" width="50" height="50"/>
+                                                    <rect key="frame" x="16" y="45" width="64" height="64"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.13725490196078433" green="0.65490196078431373" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="wYp-gU-Dpk" kind="show" id="nWQ-Nc-mc9"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Icr-bH-Avp" imageView="Bqc-DN-f2y" style="IBUITableViewCellStyleDefault" id="4Sb-Ua-1Nf">
                                         <rect key="frame" x="0.0" y="183" width="375" height="138"/>
@@ -63,6 +66,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.13725490196078433" green="0.65490196078431373" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="2G0-a2-WoF" kind="show" id="BaH-J4-mPK"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="sIE-EO-bLM" imageView="hka-Be-eG2" style="IBUITableViewCellStyleDefault" id="3Yn-dD-xjn">
                                         <rect key="frame" x="0.0" y="321" width="375" height="138"/>
@@ -85,6 +91,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.13725490196078433" green="0.65490196078431373" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="Cdy-93-Qlx" kind="show" id="XLf-1y-oCw"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="UeF-6O-0jr" imageView="lto-gy-wxz" style="IBUITableViewCellStyleDefault" id="2Mh-ze-CN2">
                                         <rect key="frame" x="0.0" y="459" width="375" height="138"/>
@@ -107,6 +116,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.13725490196078433" green="0.65490196078431373" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="dT2-gO-JuO" kind="show" id="Ip9-Cn-n5C"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="cLd-bp-fcE" imageView="WLI-uc-dNa" style="IBUITableViewCellStyleDefault" id="40K-gd-RgY">
                                         <rect key="frame" x="0.0" y="597" width="375" height="138"/>
@@ -138,11 +150,107 @@
                             <outlet property="delegate" destination="yKo-jx-LmZ" id="hAJ-zS-zrV"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="YOUR ACCOUNT" image="USERP.png" selectedImage="USERP.png" springLoaded="YES" id="fI9-OK-tQ6"/>
+                    <navigationItem key="navigationItem" id="uVl-0g-jYJ"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6FY-2K-NFZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2817" y="-1643"/>
+            <point key="canvasLocation" x="3625" y="-1585"/>
+        </scene>
+        <!--MY ORDER-->
+        <scene sceneID="WOz-Kl-b6F">
+            <objects>
+                <viewController id="2G0-a2-WoF" userLabel="MY ORDER" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f2U-Gs-6CS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MY OREDERT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zf-d4-xTD">
+                                <rect key="frame" x="134" y="140" width="106" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.65490196079999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="u2Q-YT-VNU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rK7-fm-PPI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5212" y="-911"/>
+        </scene>
+        <!--SHIPMENT INFO-->
+        <scene sceneID="HgD-Uv-gXO">
+            <objects>
+                <viewController id="Cdy-93-Qlx" userLabel="SHIPMENT INFO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hQb-cu-JnN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SHIP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aT-kw-MHU">
+                                <rect key="frame" x="48" y="281" width="118" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.65490196079999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="gXe-Z9-gTd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dZT-9a-ivc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6140" y="-1585.4572713643179"/>
+        </scene>
+        <!--ABOUT US-->
+        <scene sceneID="OKC-mB-Siw">
+            <objects>
+                <viewController id="dT2-gO-JuO" userLabel="ABOUT US" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SVU-xe-zaE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ABOUT US" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rha-cy-ht7">
+                                <rect key="frame" x="166" y="323" width="85" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.65490196079999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="CVE-D0-ZTq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n9X-At-s3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6140" y="-910.79460269865069"/>
+        </scene>
+        <!--MY PROFILE-->
+        <scene sceneID="rbw-gV-YN5">
+            <objects>
+                <viewController id="wYp-gU-Dpk" userLabel="MY PROFILE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h88-ZV-utg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MY PROFILE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGC-Qq-SwH">
+                                <rect key="frame" x="166" y="186" width="96" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.65490196079999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="VIt-dJ-gYK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yax-Hf-uG9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5212" y="-1585"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -329,7 +437,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PBO-6F-6Bq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2816.8000000000002" y="-184.85757121439281"/>
+            <point key="canvasLocation" x="2817" y="-154"/>
         </scene>
         <!--Home Scene-->
         <scene sceneID="4qh-NE-Bfz">
@@ -393,7 +501,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="69Z-7q-MwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3756" y="-847.82608695652175"/>
+            <point key="canvasLocation" x="3538" y="-848"/>
         </scene>
         <!--Product Details -->
         <scene sceneID="8VD-1i-ATD">
@@ -422,7 +530,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.65490196079999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="vHh-Co-M8t"/>
                     </view>
                     <connections>
@@ -432,7 +540,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ewH-EZ-OSK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4674.3999999999996" y="-829.83508245877067"/>
+            <point key="canvasLocation" x="4206" y="-848"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8a8-Cf-m3t">
@@ -446,7 +554,7 @@
                     <connections>
                         <segue destination="Y3T-PH-nXa" kind="relationship" relationship="viewControllers" id="3CS-6N-6UL"/>
                         <segue destination="XYe-db-ApN" kind="relationship" relationship="viewControllers" id="Apn-ka-OXT"/>
-                        <segue destination="yKo-jx-LmZ" kind="relationship" relationship="viewControllers" id="hqG-96-gOt"/>
+                        <segue destination="2hy-te-hej" kind="relationship" relationship="viewControllers" id="hqG-96-gOt"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mtl-zk-0gr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -488,7 +596,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Agd-oL-mWi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2816.8000000000002" y="-847.82608695652175"/>
+            <point key="canvasLocation" x="2817" y="-849"/>
+        </scene>
+        <!--YOUR ACCOUNT-->
+        <scene sceneID="4a6-Ri-JaJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2hy-te-hej" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="YOUR ACCOUNT" image="USERP.png" selectedImage="USERP.png" springLoaded="YES" id="fI9-OK-tQ6"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XCE-I3-LCu">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yKo-jx-LmZ" kind="relationship" relationship="rootViewController" id="xYF-gS-PQe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fxs-c1-eH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2817" y="-1584"/>
         </scene>
     </scenes>
     <resources>
@@ -496,7 +623,7 @@
         <image name="ADDRESS.png" width="50" height="50"/>
         <image name="CART.png" width="24" height="24"/>
         <image name="PRODUCTS.png" width="26" height="26"/>
-        <image name="USERP.png" width="50" height="50"/>
+        <image name="USERP.png" width="64" height="64"/>
         <image name="logout.png" width="50" height="50"/>
         <image name="order.png" width="50" height="50"/>
     </resources>
