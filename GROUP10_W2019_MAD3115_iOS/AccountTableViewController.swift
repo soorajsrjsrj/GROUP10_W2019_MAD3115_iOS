@@ -22,33 +22,25 @@ class AccountTableViewController: UITableViewController {
         {
             switch indexPath.row {
             case 0:
-                print("Go to Home")
+                print("Go to MY PROFILE")
               /*  let sb = UIStoryboard(name: "Main", bundle: nil)
                 let studentDetailsVC = sb.instantiateViewController(withIdentifier: "studentDetailsVC") as! StudentInforamtionViewController
                 self.navigationController?.pushViewController(studentDetailsVC, animated: true)*/
             case 1:
-                print("Go to Products Page")
+                print("Go to MY ORDER")
             case 2:
-                print("Go to Order History Page")
-            default:
-                print("Invalid Option")
-            }
-        }else{
-            switch indexPath.row {
-            case 0:
-                print("Go to Help Page")
-            case 1:
-                print("Go to About US Page")
-            case 2:
-                print("Go to Contact US Page")
+                print("Go to MY ADDRESSS")
             case 3:
-                print("Call Logout")
+                print("about us")
+            case 4:
+                print("logged  out")
             default:
                 print("Invalid Option")
             }
         }
+        }
     }
-}
+
 
 
     
