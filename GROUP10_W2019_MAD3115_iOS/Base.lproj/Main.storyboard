@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bTB-fJ-5gg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bTB-fJ-5gg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.47"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,18 +28,19 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="MY PROFILE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="trz-u0-qry">
-                                                    <rect key="frame" x="55" y="0.0" width="304" height="154.5"/>
+                                                    <rect key="frame" x="63" y="0.0" width="296" height="154.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="USERP.png" id="orA-IG-qUM">
-                                                    <rect key="frame" x="16" y="65" width="24" height="24"/>
+                                                    <rect key="frame" x="16" y="61" width="32" height="32"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.13725490196078433" green="0.65490196078431373" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Icr-bH-Avp" imageView="Bqc-DN-f2y" style="IBUITableViewCellStyleDefault" id="4Sb-Ua-1Nf">
                                         <rect key="frame" x="0.0" y="183" width="375" height="138"/>
@@ -48,19 +49,20 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="137.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="CART" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Icr-bH-Avp">
-                                                    <rect key="frame" x="69" y="0.0" width="290" height="137.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="MY ORDER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Icr-bH-Avp">
+                                                    <rect key="frame" x="81" y="0.0" width="278" height="137.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="cart.png" highlightedImage="cart.png" highlighted="YES" id="Bqc-DN-f2y">
-                                                    <rect key="frame" x="16" y="49" width="38" height="38"/>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="order.png" highlightedImage="order.png" highlighted="YES" id="Bqc-DN-f2y">
+                                                    <rect key="frame" x="16" y="43" width="50" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.13725490196078433" green="0.65490196078431373" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="sIE-EO-bLM" imageView="hka-Be-eG2" style="IBUITableViewCellStyleDefault" id="3Yn-dD-xjn">
                                         <rect key="frame" x="0.0" y="321" width="375" height="138"/>
@@ -69,19 +71,20 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="137.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="UPDATE CART" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sIE-EO-bLM">
-                                                    <rect key="frame" x="69" y="0.0" width="290" height="137.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="MY ADDRESS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sIE-EO-bLM">
+                                                    <rect key="frame" x="81" y="0.0" width="278" height="137.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="ordercart.png" highlightedImage="ordercart.png" highlighted="YES" id="hka-Be-eG2">
-                                                    <rect key="frame" x="16" y="49" width="38" height="38"/>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="ADDRESS.png" highlightedImage="ADDRESS.png" highlighted="YES" id="hka-Be-eG2">
+                                                    <rect key="frame" x="16" y="43" width="50" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.13725490196078433" green="0.65490196078431373" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="UeF-6O-0jr" imageView="lto-gy-wxz" style="IBUITableViewCellStyleDefault" id="2Mh-ze-CN2">
                                         <rect key="frame" x="0.0" y="459" width="375" height="138"/>
@@ -91,60 +94,41 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="SHIPMENT INFO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UeF-6O-0jr">
-                                                    <rect key="frame" x="69" y="0.0" width="290" height="137.5"/>
+                                                    <rect key="frame" x="81" y="0.0" width="278" height="137.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="profile.png" id="lto-gy-wxz">
-                                                    <rect key="frame" x="16" y="49" width="38" height="38"/>
+                                                    <rect key="frame" x="16" y="43" width="50" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.13725490196078433" green="0.65490196078431373" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="JCM-sC-DzU" imageView="bOy-NW-qPh" rowHeight="154" style="IBUITableViewCellStyleDefault" id="Aai-qj-Qub">
-                                        <rect key="frame" x="0.0" y="597" width="375" height="154"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="cLd-bp-fcE" imageView="WLI-uc-dNa" style="IBUITableViewCellStyleDefault" id="40K-gd-RgY">
+                                        <rect key="frame" x="0.0" y="597" width="375" height="138"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Aai-qj-Qub" id="wlf-Eo-rco">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="153.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="40K-gd-RgY" id="Zc6-np-sjG">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="137.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="YOUR ORDERS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JCM-sC-DzU">
-                                                    <rect key="frame" x="69" y="0.0" width="290" height="153.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="LOG OUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cLd-bp-fcE">
+                                                    <rect key="frame" x="81" y="0.0" width="278" height="137.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="order.png" highlightedImage="order.png" highlighted="YES" id="bOy-NW-qPh">
-                                                    <rect key="frame" x="16" y="57" width="38" height="38"/>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="logout.png" id="WLI-uc-dNa">
+                                                    <rect key="frame" x="16" y="43" width="50" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="lFZ-aD-X8T" imageView="hcK-VJ-vOm" rowHeight="165" style="IBUITableViewCellStyleDefault" id="hCm-YX-3lH">
-                                        <rect key="frame" x="0.0" y="751" width="375" height="165"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hCm-YX-3lH" id="28Y-Ls-XX1">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="164.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="LOG OUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lFZ-aD-X8T">
-                                                    <rect key="frame" x="68" y="0.0" width="292" height="164.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="logout.png" highlightedImage="logout.png" highlighted="YES" id="hcK-VJ-vOm">
-                                                    <rect key="frame" x="15" y="63" width="38" height="38"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </imageView>
-                                            </subviews>
-                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.13725490196078433" green="0.65490196078431373" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -154,7 +138,7 @@
                             <outlet property="delegate" destination="yKo-jx-LmZ" id="hAJ-zS-zrV"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="fI9-OK-tQ6"/>
+                    <tabBarItem key="tabBarItem" title="YOUR ACCOUNT" image="USERP.png" selectedImage="USERP.png" id="fI9-OK-tQ6"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6FY-2K-NFZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -290,7 +274,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="D3T-PR-RGP">
-                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="571"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -338,7 +322,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3Do-mf-Ao1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="zfC-d5-89V"/>
+                    <tabBarItem key="tabBarItem" title="CART" image="CART.png" selectedImage="CART.png" id="zfC-d5-89V"/>
                     <connections>
                         <outlet property="cartViewTable" destination="D3T-PR-RGP" id="r2e-85-ICZ"/>
                     </connections>
@@ -452,7 +436,7 @@
         <scene sceneID="8a8-Cf-m3t">
             <objects>
                 <tabBarController storyboardIdentifier="tabView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5Kt-Cz-qRu" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" restorationIdentifier="tabView" insetsLayoutMarginsFromSafeArea="NO" selectionIndicatorImage="SPLASH.png" id="43D-1b-KaF">
+                    <tabBar key="tabBar" contentMode="scaleToFill" restorationIdentifier="tabView" insetsLayoutMarginsFromSafeArea="NO" id="43D-1b-KaF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -485,11 +469,11 @@
             </objects>
             <point key="canvasLocation" x="208.69565217391306" y="177.45535714285714"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--PRODUCTS-->
         <scene sceneID="Lqf-Dc-BEJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y3T-PH-nXa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" selectedImage="PRODUCTS.png" id="Q8J-2H-UfF"/>
+                    <tabBarItem key="tabBarItem" title="PRODUCTS" image="PRODUCTS.png" selectedImage="PRODUCTS.png" id="Q8J-2H-UfF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RjI-NB-Owg">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -506,13 +490,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="PRODUCTS.png" width="19.5" height="19.5"/>
-        <image name="SPLASH.png" width="37.5" height="37.5"/>
-        <image name="USERP.png" width="24" height="24"/>
-        <image name="cart.png" width="37.5" height="37.5"/>
-        <image name="logout.png" width="37.5" height="37.5"/>
-        <image name="order.png" width="37.5" height="37.5"/>
-        <image name="ordercart.png" width="37.5" height="37.5"/>
-        <image name="profile.png" width="37.5" height="37.5"/>
+        <image name="ADDRESS.png" width="50" height="50"/>
+        <image name="CART.png" width="24" height="24"/>
+        <image name="PRODUCTS.png" width="26" height="26"/>
+        <image name="USERP.png" width="32" height="32"/>
+        <image name="logout.png" width="50" height="50"/>
+        <image name="order.png" width="50" height="50"/>
+        <image name="profile.png" width="50" height="50"/>
     </resources>
 </document>

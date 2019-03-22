@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B9054EC22406C200038C357 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9054E622406C1F0038C357 /* cart.png */; };
+		9B5BA50522458F2A004EA714 /* CART.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5BA50422458F2A004EA714 /* CART.png */; };
+		9B5BA50722458F8B004EA714 /* ADDRESS.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5BA50622458F8A004EA714 /* ADDRESS.png */; };
 		9B9054ED22406C200038C357 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9054E722406C1F0038C357 /* logout.png */; };
 		9B9054EE22406C200038C357 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9054E822406C1F0038C357 /* home.png */; };
 		9B9054EF22406C200038C357 /* order.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9054E922406C1F0038C357 /* order.png */; };
 		9B9054F022406C200038C357 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9054EA22406C1F0038C357 /* profile.png */; };
-		9B9054F122406C200038C357 /* ordercart.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9054EB22406C200038C357 /* ordercart.png */; };
 		B10F10ED2244013F00E6B8E1 /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10F10EC2244013F00E6B8E1 /* AccountTableViewController.swift */; };
 		B10F10F12244021100E6B8E1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10F10F02244021100E6B8E1 /* HomeViewController.swift */; };
 		B10F10F32244024100E6B8E1 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10F10F22244024100E6B8E1 /* CartViewController.swift */; };
@@ -38,12 +38,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B9054E622406C1F0038C357 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		9B5BA50422458F2A004EA714 /* CART.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CART.png; sourceTree = "<group>"; };
+		9B5BA50622458F8A004EA714 /* ADDRESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADDRESS.png; sourceTree = "<group>"; };
 		9B9054E722406C1F0038C357 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
 		9B9054E822406C1F0038C357 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		9B9054E922406C1F0038C357 /* order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = order.png; sourceTree = "<group>"; };
 		9B9054EA22406C1F0038C357 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
-		9B9054EB22406C200038C357 /* ordercart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ordercart.png; sourceTree = "<group>"; };
 		B10F10EC2244013F00E6B8E1 /* AccountTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewController.swift; sourceTree = "<group>"; };
 		B10F10F02244021100E6B8E1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B10F10F22244024100E6B8E1 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
@@ -87,11 +87,11 @@
 				CB955C6122457FCC00A61D71 /* SPLASH.png */,
 				CB955C63224585A100A61D71 /* PRODUCTS.png */,
 				CB955C652245891400A61D71 /* USERP.png */,
-				9B9054E622406C1F0038C357 /* cart.png */,
+				9B5BA50422458F2A004EA714 /* CART.png */,
+				9B5BA50622458F8A004EA714 /* ADDRESS.png */,
 				9B9054E822406C1F0038C357 /* home.png */,
 				9B9054E722406C1F0038C357 /* logout.png */,
 				9B9054E922406C1F0038C357 /* order.png */,
-				9B9054EB22406C200038C357 /* ordercart.png */,
 				9B9054EA22406C1F0038C357 /* profile.png */,
 			);
 			path = Images;
@@ -208,16 +208,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB6F8B4223AD6330004F028 /* LaunchScreen.storyboard in Resources */,
-				9B9054EC22406C200038C357 /* cart.png in Resources */,
 				9B9054EE22406C200038C357 /* home.png in Resources */,
 				9B9054ED22406C200038C357 /* logout.png in Resources */,
 				CBB6F8B1223AD6330004F028 /* Assets.xcassets in Resources */,
+				9B5BA50722458F8B004EA714 /* ADDRESS.png in Resources */,
 				CBB6F8AF223AD6330004F028 /* Main.storyboard in Resources */,
 				9B9054EF22406C200038C357 /* order.png in Resources */,
 				9B9054F022406C200038C357 /* profile.png in Resources */,
 				CB955C6222457FCC00A61D71 /* SPLASH.png in Resources */,
 				CB955C64224585A100A61D71 /* PRODUCTS.png in Resources */,
-				9B9054F122406C200038C357 /* ordercart.png in Resources */,
+				9B5BA50522458F2A004EA714 /* CART.png in Resources */,
 				CB955C662245891500A61D71 /* USERP.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
