@@ -294,7 +294,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="yUk-CQ-Dj4" detailTextLabel="dmQ-rt-lb2" style="IBUITableViewCellStyleSubtitle" id="lWR-rl-FbJ">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="productCell" textLabel="yUk-CQ-Dj4" detailTextLabel="dmQ-rt-lb2" style="IBUITableViewCellStyleSubtitle" id="lWR-rl-FbJ" customClass="ProductTableViewCell" customModule="GROUP10_W2019_MAD3115_iOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="240" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lWR-rl-FbJ" id="MSe-Gu-t3W">
@@ -317,6 +317,10 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="subtitle" destination="dmQ-rt-lb2" id="gJm-lU-fW0"/>
+                                            <outlet property="title" destination="yUk-CQ-Dj4" id="eJD-Sv-3re"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -333,7 +337,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="Q8J-2H-UfF"/>
                     <connections>
-                        <outlet property="label" destination="qXg-R4-Jne" id="iWE-FU-S1t"/>
+                        <outlet property="tvProducts" destination="5LK-N5-jpZ" id="yqZ-BB-gJn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="69Z-7q-MwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
