@@ -27,7 +27,9 @@ class ProductDetailsViewController: UIViewController {
     
       // Do any additional setup after loading the view.
     }
+    
     func productDetails(){
+        
     print(p[myIndex].productName)
     }
     

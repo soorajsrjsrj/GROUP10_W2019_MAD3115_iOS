@@ -45,6 +45,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         productCell.title.text = "\(rr.productId)"
         productCell.subtitle.text = "\(rr.productName)"
+       // productCell.imageView = 
        
         
         return productCell
@@ -59,9 +60,13 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     func addproducts(){
         let prd = Products(productId: 1, productName: "Iphone XS Max 64GB", productQuantity: 10, productPrice: 1200.00)
         let prd2 = Products(productId: 2, productName: "Samsung Note 9 64GB", productQuantity: 5, productPrice: 949.99)
+        let prd3 = Products(productId: 3, productName: "Fire HD 10 Tablet , 32 GB, Black", productQuantity: 7, productPrice: 154.99)
+        let prd4 = Products(productId: 4, productName: "Fitbit Charge 2 Bands", productQuantity: 6, productPrice: 54.99)
         
         p.insert(prd, at: 0)
         p.insert(prd2, at: 0)
+        p.insert(prd3, at: 0)
+        p.insert(prd4, at: 0)
         
         // pdt.text = String(p[0].getproductId)
     
