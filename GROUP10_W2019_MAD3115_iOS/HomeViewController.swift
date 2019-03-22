@@ -14,7 +14,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
    
     
 
-   
+   var myIndex = 0
     var p = [Products]()
     
     
@@ -45,6 +45,10 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
        
         
         return productCell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        myIndex = indexPath.row
+        performSegue(withIdentifier: "productdetails", sender: self)
     }
     
     
