@@ -8,13 +8,36 @@
 
 import UIKit
 
-class CartViewController: UIViewController {
+class CartViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+   
+    
 
+    @IBOutlet weak var cartViewTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(tempObj?.sc.count)
 
         // Do any additional setup after loading the view.
     }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return (tempObj?.sc.count)!
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cartCell = tableView.dequeueReusableCell(withIdentifier: "cartCell") as! CartViewTableViewCell
+        
+        let rr = tempObj?.sc.count
+        
+        cartCell.itemName.text = "\(tempObj!.sc[0])"
+       // cartCell.itemQuantity.text = "\(rr.productName)"
+        
+        
+        return cartCell
+    }
+    
+    
+    
     
 
     /*

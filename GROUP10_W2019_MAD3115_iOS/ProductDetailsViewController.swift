@@ -7,10 +7,14 @@
 //
 
 import UIKit
+let cartTemp=ShoppingCart()
+var tempObj:Customer?
+var sc = [ShoppingCart]()
 
 class ProductDetailsViewController: UIViewController {
     
-  let cartTemp=ShoppingCart()
+  
+  
    
     @IBOutlet weak var cartButton: UIButton!
     
@@ -24,31 +28,21 @@ class ProductDetailsViewController: UIViewController {
       // Do any additional setup after loading the view.
     }
     func productDetails(){
-
     print(p[myIndex].productName)
-        
     }
+    
    
     
     @IBAction func addProductButton(_ sender: Any) {
-        
-        
- 
-    }
-    
-    
-   
+       addProducttoarray()
         
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func addProducttoarray(){
+        let date = "12"
+        cartTemp.addCartItem(cartId: Int.random(in: 1...100), productId: p[myIndex].productId, quantity: p[myIndex].productQuantity, dateAdded: String(date))
+        tempObj?.sc.append(cartTemp)
+        print(tempObj?.sc.count)
     }
-    */
-
+    }
 

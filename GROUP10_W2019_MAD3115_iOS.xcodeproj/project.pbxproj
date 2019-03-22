@@ -19,6 +19,8 @@
 		B10F10F52244130E00E6B8E1 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10F10F42244130E00E6B8E1 /* Products.swift */; };
 		B10F10F722445AC100E6B8E1 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10F10F622445AC100E6B8E1 /* ProductTableViewCell.swift */; };
 		B10F10F922446A9C00E6B8E1 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10F10F822446A9C00E6B8E1 /* ProductDetailsViewController.swift */; };
+		B10F10FB22456FE300E6B8E1 /* CartViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10F10FA22456FE300E6B8E1 /* CartViewTableViewCell.swift */; };
+		B10F10FD22457BE800E6B8E1 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10F10FC22457BE800E6B8E1 /* extension.swift */; };
 		CB8B8D3A22446FC30076FD63 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8B8D3922446FC30076FD63 /* Orders.swift */; };
 		CB8B8D3C2244701A0076FD63 /* OrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8B8D3B2244701A0076FD63 /* OrderDetails.swift */; };
 		CB8B8D3F224470B60076FD63 /* ShippingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8B8D3E224470B60076FD63 /* ShippingInfo.swift */; };
@@ -45,6 +47,8 @@
 		B10F10F42244130E00E6B8E1 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		B10F10F622445AC100E6B8E1 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		B10F10F822446A9C00E6B8E1 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		B10F10FA22456FE300E6B8E1 /* CartViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewTableViewCell.swift; sourceTree = "<group>"; };
+		B10F10FC22457BE800E6B8E1 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		CB8B8D3922446FC30076FD63 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
 		CB8B8D3B2244701A0076FD63 /* OrderDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetails.swift; sourceTree = "<group>"; };
 		CB8B8D3E224470B60076FD63 /* ShippingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingInfo.swift; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 				CB8B8D3B2244701A0076FD63 /* OrderDetails.swift */,
 				CB8B8D3E224470B60076FD63 /* ShippingInfo.swift */,
 				CB8B8D40224470F10076FD63 /* ShoppingCart.swift */,
+				B10F10FC22457BE800E6B8E1 /* extension.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				B10F10F22244024100E6B8E1 /* CartViewController.swift */,
 				B10F10F622445AC100E6B8E1 /* ProductTableViewCell.swift */,
 				B10F10F822446A9C00E6B8E1 /* ProductDetailsViewController.swift */,
+				B10F10FA22456FE300E6B8E1 /* CartViewTableViewCell.swift */,
 			);
 			path = GROUP10_W2019_MAD3115_iOS;
 			sourceTree = "<group>";
@@ -218,11 +224,13 @@
 				B10F10F922446A9C00E6B8E1 /* ProductDetailsViewController.swift in Sources */,
 				B10F10F32244024100E6B8E1 /* CartViewController.swift in Sources */,
 				CBB6F8AA223AD6330004F028 /* AppDelegate.swift in Sources */,
+				B10F10FD22457BE800E6B8E1 /* extension.swift in Sources */,
 				CB8B8D3C2244701A0076FD63 /* OrderDetails.swift in Sources */,
 				CB8B8D3F224470B60076FD63 /* ShippingInfo.swift in Sources */,
 				CBB6F8BC223AD8E90004F028 /* User.swift in Sources */,
 				B10F10F52244130E00E6B8E1 /* Products.swift in Sources */,
 				B10F10F12244021100E6B8E1 /* HomeViewController.swift in Sources */,
+				B10F10FB22456FE300E6B8E1 /* CartViewTableViewCell.swift in Sources */,
 				CBED86BA2243F37300FBD3A0 /* Customer.swift in Sources */,
 				CB8B8D41224470F10076FD63 /* ShoppingCart.swift in Sources */,
 			);

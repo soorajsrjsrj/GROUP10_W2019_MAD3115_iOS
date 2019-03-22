@@ -22,4 +22,11 @@ class OrderDetails{
         self.unitCost=0.0
         self.subtotal=0.0
 }
+    func calcPrice(){
+        self.subtotal=prod(ucost:self.unitCost,q:self.quantity);
+    }
+    func prod(ucost:Float,q:Int)->Float{
+        let qu=(Float)(q)
+        return (ucost * qu)
+    }
 }
