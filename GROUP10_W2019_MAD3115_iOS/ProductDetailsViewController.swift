@@ -9,14 +9,38 @@
 import UIKit
 
 class ProductDetailsViewController: UIViewController {
-
+    
+  let cartTemp=ShoppingCart()
+   
+    @IBOutlet weak var cartButton: UIButton!
+    
+    
+    @IBOutlet weak var productTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        productDetails()
+       
+    
+      // Do any additional setup after loading the view.
+    }
+    func productDetails(){
 
-        // Do any additional setup after loading the view.
+    print(p[myIndex].productName)
+        
+    }
+   
+    
+    @IBAction func addProductButton(_ sender: Any) {
+        
+        
+ 
     }
     
-
+    
+   
+        
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -27,4 +51,4 @@ class ProductDetailsViewController: UIViewController {
     }
     */
 
-}
+

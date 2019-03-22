@@ -7,15 +7,18 @@
 //
 
 import UIKit
+var myIndex = 0
+var p = [Products]()
 
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tvProducts: UITableView!
     
    
     
+  
 
-   var myIndex = 0
-    var p = [Products]()
+
+   
     
     
     override func viewDidLoad() {
@@ -32,15 +35,15 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.p.count
+        return p.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let productCell = tableView.dequeueReusableCell(withIdentifier: "productCell") as! ProductTableViewCell
         
-        let rr = self.p[indexPath.row]
+        let rr = p[indexPath.row]
         
-        productCell.title.text = "\(rr.getproductId)"
+        productCell.title.text = "\(rr.productId)"
         productCell.subtitle.text = "\(rr.productName)"
        
         
@@ -56,6 +59,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     func addproducts(){
         let prd = Products(productId: 1, productName: "Iphone XS Max 64GB", productQuantity: 10, productPrice: 1200.00)
         let prd2 = Products(productId: 2, productName: "Samsung Note 9 64GB", productQuantity: 5, productPrice: 949.99)
+        
         p.insert(prd, at: 0)
         p.insert(prd2, at: 0)
         

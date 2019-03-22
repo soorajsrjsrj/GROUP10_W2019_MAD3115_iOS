@@ -26,5 +26,14 @@ class ShoppingCart{
         self.dateAdded=dateAdded
         print("Item added")
      //   viewCartDetails()
+    }
+    func viewCartDetails(){
+        print("cart id:\(self.cartId)")
+        print("Item No.\t\tItem Name\t\tQuantity\t  Date Added")
+        for i in p {
+            if(self.productId == i.getproductId){
+                print("\t\(self.productId)\t    \(i.productName)\t    \(self.quantity)\t       \(self.dateAdded)")
+            }
+        }
 }
 }
