@@ -54,16 +54,20 @@ class Products{
      productPrice=newPrice
      }
      }*/
+    
+    var productImage:String
     init(){
         self.productId=0
         self.productName=String()
         self.productQuantity=0
         self.productPrice=0.0
+        self.productImage=String()
     }
-    init(productId:Int,productName:String,productQuantity:Int,productPrice:Float){
+    init(productId:Int,productName:String,productQuantity:Int,productPrice:Float,productImage:String){
         self.productId=productId
         self.productName=productName
         self.productQuantity=productQuantity
         self.productPrice=productPrice
+        self.productImage=productImage
 }
 }

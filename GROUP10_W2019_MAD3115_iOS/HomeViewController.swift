@@ -31,7 +31,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         productCell.title.text = "\(rr.productId)"
         productCell.subtitle.text = "\(rr.productName)"
-        
+       productCell.price.text = "\(rr.productPrice)"
+        productCell.imageView?.image=UIImage(named: rr.productImage)
         
         return productCell
     }
@@ -43,11 +44,20 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     func addproducts(){
-        let prd = Products(productId: 1, productName: "Iphone XS Max 64GB", productQuantity: 10, productPrice: 1200.00)
-        let prd2 = Products(productId: 2, productName: "Samsung Note 9 64GB", productQuantity: 5, productPrice: 949.99)
         
-        p.insert(prd, at: 0)
+        let prd1=Products(productId: 1, productName: "samsung galaxy s9", productQuantity: 5, productPrice: 100.00, productImage: "samsung.jpg")
+        
+        let prd2=Products(productId: 2, productName: "iphone", productQuantity: 3, productPrice: 1200.00, productImage: "iphone.jpeg")
+        
+        let prd3=Products(productId: 3, productName: "alexa", productQuantity: 4, productPrice: 600.00, productImage: "alexa.jpg")
+        let prd4=Products(productId: 4, productName: "beats", productQuantity: 3, productPrice: 300.00, productImage: "beats.jpg")
+        let prd5=Products(productId: 5, productName: "sony DSLR", productQuantity: 3, productPrice: 1700.00, productImage: "sony.jpg")
+       
+       p.insert(prd1, at: 0)
         p.insert(prd2, at: 0)
+        p.insert(prd3, at: 0)
+        p.insert(prd4, at: 0)
+        p.insert(prd5, at: 0)
         
         // pdt.text = String(p[0].getproductId)
         
