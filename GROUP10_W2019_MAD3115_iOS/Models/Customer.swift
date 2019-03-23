@@ -1,16 +1,10 @@
-//
-//  Customer.swift
-//  GROUP10_W2019_MAD3115_iOS
-//
-//  Created by Jubin KS on 2019-03-21.
-//  Copyright © 2019 Jubin KS. All rights reserved.
-//
 
 import Foundation
 
 
 import Foundation
 
+var o = [Orders]()
 
 class Customer:User
 {
@@ -19,7 +13,7 @@ class Customer:User
     var email:String
     var creditCardInfo:String
     var shippingInfo:String
-    var o = [Orders]()              //array of Orders              //Orders()
+    //array of Orders              //Orders()
     var sc = [ShoppingCart]()      //array of ShoppingCart        //ShoppingCart()
     override init(){
         self.customerName=String()
@@ -52,5 +46,34 @@ class Customer:User
         }
         
     }
+    func checkOut(){
+        let date=Date()
+        let sdate=Date.init(timeIntervalSinceNow: 5*86400)
+        let currdate="12"
+        let shipdate="123"
+        print("Select shipping type\n1.Domestic 2.International")
+        let choice=Int(readLine()!)!
+        var shipCost:Int
+        var shipType:String
+        if(choice == 1){
+            shipCost=5
+            shipType="Domestic"
+        }
+        else{
+            shipCost=15
+            shipType="International"
+        }
+        print("Select region/province\n1.Ontario\n2.British Columbia\n3.Quebec\n4.Alberta")
+        let regchoice=Int(readLine()!)!
+        print("press 1 to confirm your order")
+        let confirm=Int(readLine()!)!
+        if(confirm == 1){
+            let or=Orders()
+            //or.placeOrder()
+            or.placeOrder(currDate: currdate, shipDate: shipdate, custName: self.customerName, shipType: shipType, shipCost: shipCost, regionId: regchoice, cartObj: sc)
+            o.append(or)
+        }
+    }
     
 }
+

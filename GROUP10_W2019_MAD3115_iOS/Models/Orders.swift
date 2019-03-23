@@ -1,10 +1,3 @@
-//
-//  Orders.swift
-//  GROUP10_W2019_MAD3115_iOS
-//
-//  Created by Jubin KS on 2019-03-21.
-//  Copyright © 2019 Jubin KS. All rights reserved.
-//
 
 import Foundation
 import Darwin
@@ -29,7 +22,7 @@ class Orders{
         self.customerId=String()
         self.status=String()
         self.shippingId=String()
-}
+    }
     func placeOrder(currDate:String, shipDate:String, custName:String, /*custId:String, shipId:Int,*/ shipType:String, shipCost:Int, regionId:Int, cartObj:[ShoppingCart]){
         si.append(ShippingInfo(shipType: shipType, shipCost: shipCost, shipRegId: regionId))
         self.orderId=Int(arc4random())
@@ -50,8 +43,8 @@ class Orders{
                     od[od.endIndex-1].unitCost=j.productPrice
                 }
             }
-            //orderId,productId,productName,quantity,unitcost,subtotal
             od[od.endIndex-1].calcPrice()
         }
     }
 }
+
