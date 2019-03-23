@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B3F4787224696C9001490DA /* samsung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B3F4786224696C9001490DA /* samsung.jpg */; };
+		9B3F4789224696D1001490DA /* iphone.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B3F4788224696D1001490DA /* iphone.jpeg */; };
 		9B5BA50522458F2A004EA714 /* CART.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5BA50422458F2A004EA714 /* CART.png */; };
 		9B5BA50722458F8B004EA714 /* ADDRESS.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5BA50622458F8A004EA714 /* ADDRESS.png */; };
 		9B5BA50D22459644004EA714 /* ABOUT.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5BA50C22459644004EA714 /* ABOUT.png */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B3F4786224696C9001490DA /* samsung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samsung.jpg; sourceTree = "<group>"; };
+		9B3F4788224696D1001490DA /* iphone.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone.jpeg; sourceTree = "<group>"; };
 		9B5BA50422458F2A004EA714 /* CART.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CART.png; sourceTree = "<group>"; };
 		9B5BA50622458F8A004EA714 /* ADDRESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADDRESS.png; sourceTree = "<group>"; };
 		9B5BA50C22459644004EA714 /* ABOUT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ABOUT.png; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 				9B5BA50622458F8A004EA714 /* ADDRESS.png */,
 				9B5BA50C22459644004EA714 /* ABOUT.png */,
 				9B5BA514224599F8004EA714 /* USERP.png */,
+				9B3F4788224696D1001490DA /* iphone.jpeg */,
+				9B3F4786224696C9001490DA /* samsung.jpg */,
 				9B9054E822406C1F0038C357 /* home.png */,
 				9B9054E722406C1F0038C357 /* logout.png */,
 				9B9054E922406C1F0038C357 /* order.png */,
@@ -212,6 +218,7 @@
 			files = (
 				CBB6F8B4223AD6330004F028 /* LaunchScreen.storyboard in Resources */,
 				9B5BA50D22459644004EA714 /* ABOUT.png in Resources */,
+				9B3F4787224696C9001490DA /* samsung.jpg in Resources */,
 				9B9054EE22406C200038C357 /* home.png in Resources */,
 				9B9054ED22406C200038C357 /* logout.png in Resources */,
 				CBB6F8B1223AD6330004F028 /* Assets.xcassets in Resources */,
@@ -222,6 +229,7 @@
 				CB955C6222457FCC00A61D71 /* SPLASH.png in Resources */,
 				CB955C64224585A100A61D71 /* PRODUCTS.png in Resources */,
 				9B5BA50522458F2A004EA714 /* CART.png in Resources */,
+				9B3F4789224696D1001490DA /* iphone.jpeg in Resources */,
 				9B5BA515224599F8004EA714 /* USERP.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
