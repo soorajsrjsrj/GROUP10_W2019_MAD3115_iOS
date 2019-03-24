@@ -8,8 +8,12 @@ var od = [OrderDetails]()
 
 class ProductDetailsViewController: UIViewController {
     
+    @IBOutlet weak var cartImage: UIImageView!
+    @IBOutlet weak var cartProductName: UILabel!
+    @IBOutlet weak var cartProductdescription: UILabel!
     
     
+    @IBOutlet weak var cartProductPrice: UILabel!
     
     @IBOutlet weak var cartButton: UIButton!
     
@@ -17,7 +21,11 @@ class ProductDetailsViewController: UIViewController {
     @IBOutlet weak var productTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        productDetails()
+        //productDetails()
+        cartImage.image = UIImage(named: p[myIndex].productImage) 
+    cartProductName.text = p[myIndex].productName
+        cartProductPrice.text = String(p[myIndex].productPrice)
+    
         
         
         // Do any additional setup after loading the view.

@@ -29,9 +29,9 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         let rr = p[indexPath.row]
         
-        productCell.title.text = "\(rr.productId)"
-        productCell.subtitle.text = "\(rr.productName)"
-       productCell.price.text = "\(rr.productPrice)"
+        productCell.title.text = "\(rr.productName)"
+        productCell.subtitle.text = "\(rr.productPrice)"
+      // productCell.price.text = "\(rr.productPrice)"
         productCell.imageView?.image=UIImage(named: rr.productImage)
         
         return productCell

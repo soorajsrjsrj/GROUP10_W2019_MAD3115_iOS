@@ -25,8 +25,8 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cartCell = tableView.dequeueReusableCell(withIdentifier: "cartCell") as! CartViewTableViewCell
         let r = sc[indexPath.row]
         
-        cartCell.itemId.text = "\(r.cartId)"
-        // cartCell.itemQuantity.text = "\(r.quantity)"
+        cartCell.itemId.text = "\(r.productId)"
+      //  cartCell.itemQuantity.text = "\(r.quantity)"
         
         return cartCell
     }
