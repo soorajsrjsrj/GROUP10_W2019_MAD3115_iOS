@@ -13,7 +13,11 @@ class CartViewTableViewCell: UITableViewCell {
     
     @IBOutlet weak var itemId: UILabel!
     
+    @IBOutlet weak var productname: UILabel!
     
+    @IBOutlet weak var productQuantity: UILabel!
+    @IBOutlet weak var productPrice: UILabel!
+    @IBOutlet weak var productImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

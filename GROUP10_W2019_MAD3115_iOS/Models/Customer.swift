@@ -34,7 +34,7 @@ class Customer:User
         try super.init(uId: uId, pass: pass, lstatus: lstatus)
         
     }
-    
+
     
     func login(uId:String,pass:String){
         
