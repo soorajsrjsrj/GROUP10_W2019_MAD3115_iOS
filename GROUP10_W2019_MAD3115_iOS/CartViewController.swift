@@ -11,31 +11,78 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
         self.cartViewTable.delegate = self
         self.cartViewTable.dataSource = self
-        print(String(sc.count))
-        
+        print(String(tempObj!.sc.count))
         
         // Do any additional setup after loading the view.
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return sc.count
+        return tempObj!.sc.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cartCell = tableView.dequeueReusableCell(withIdentifier: "cartCell") as! CartViewTableViewCell
-        let r = sc[indexPath.row]
+        let r = tempObj!.sc[indexPath.row]
+      
+        
+        
         
         cartCell.itemId.text = "\(r.productId)"
+        
+        for i in p{
+           
+            
+            if(r.productId == i.getproductId){
+            
+         
+                print("\t\(i.productId)\t    \(i.productName)\t    \(i.productQuantity)\t       \(i.productPrice)")
+                cartCell.productname.text = "\(i.productName)"
+                  cartCell.productQuantity.text = "\(i.productQuantity)"
+                  cartCell.productPrice.text = "\(i.productPrice)"
+                cartCell.productImage.image = UIImage(named: i.productImage)
+            }
+        }
       //  cartCell.itemQuantity.text = "\(r.quantity)"
         
         return cartCell
     }
     
+
+    @IBAction func placeOrder(_ sender: Any) {
+        let or=Orders()
+        //or.placeOrder()
+        or.placeOrder(currDate: "1", shipDate: "2", custName: tempObj!.customerName, shipType: "dsl", shipCost: 50, regionId: 2, cartObj: sc)
+        o.append(or)
+    }
     
     
     
-    
-    
+    func placeOrder(currDate:String, shipDate:String, custName:String, /*custId:String, shipId:Int,*/ shipType:String, shipCost:Int, regionId:Int, cartObj:[ShoppingCart]){
+        si.append(ShippingInfo(shipType: shipType, shipCost: shipCost, shipRegId: regionId))
+        ord.orderId=Int(arc4random())
+        ord.dateCreated=currDate
+        ord.dateShipped=shipDate
+        ord.customerName=custName
+        ord.customerId="1"
+        ord.status="Dispatched"
+        ord.shippingId=String(si[si.endIndex-1].getId)
+        for i in cartObj{
+            od.append(OrderDetails())
+            od[od.endIndex-1].orderId=ord.orderId
+            od[od.endIndex-1].productId=i.productId
+            od[od.endIndex-1].quantity=i.quantity
+            for j in p{
+                if(i.productId == j.productId){
+                    od[od.endIndex-1].productName=j.productName
+                    od[od.endIndex-1].unitCost=j.productPrice
+                }
+            }
+            //orderId,productId,productName,quantity,unitcost,subtotal
+            od[od.endIndex-1].calcPrice()
+        }
+        
+        
+    }
     /*
      // MARK: - Navigation
      
